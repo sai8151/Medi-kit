@@ -42,3 +42,9 @@ The ESP8266 device provides the following functionalities:
 To turn off GPIO 2, send an HTTP request to `/gpio2/0`.
 
 To retrieve sensor readings, send an HTTP request to `/sensor`.
+
+## Scope
+
+The project entails integrating machine learning (ML) into the ESP8266 MAX30105 Sensor system to analyze heart rate and related statistics. It involves collecting raw sensor data from the MAX30105 sensor, including red, IR, and green light intensity values, and preprocessing the data to handle missing values, outliers, and noise. Relevant features are then extracted, such as peak detection for heartbeats and statistical measures like mean and standard deviation, followed by model training using labeled datasets to discern heart rate patterns. Model performance is evaluated using metrics like mean absolute error and correlation coefficient.
+
+# If you're interested in contributing, feel free to reach out to me.
